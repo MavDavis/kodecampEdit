@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body><div class="row">
+    <div class="logo">
+       <a href="https://imgbb.com/"><img src="https://i.ibb.co/r5jtPXs/download.png" alt="download" border="0"></a>
+    </div>
+    <div class="submit">
+        <a href="https://kode.camp" class="submit-btn about">Read more about us</a>
+     </div>
+</div>
+<div class="header">
+    <h1>KodeCamp registration</h1>
+    <h4>Please, fill in the form to get on KodeCamp training</h4>
+</div> 
+   <p id="p-tag"></p>
+  
+   <form  class ='form'action="">
+<div class="col">
+    <p id="p1-tag"></p>
+<label  class="input-label" for ='input-text'>First Name:</label>
+<input required="required" class="input-text remove-placeholder" type="text" id="input-text" class="input-text" placeholder="Enter your first name here">
+</div>
+
+<div class="col">
+    <p id="pTwo"></p>
+    <label class="input-label" for ='input-text'>Last Name:</label>
+    <input class="input-text remove-placeholder"  required="required"class="input" type="text" id="input-text" placeholder="Enter your last name here">
+    </div>
+    <div class="col">
+        <p id="p3-tag"></p>
+   <label   class="input-label"for ='input-text2'>Email</label>
+        <input class="input-text remove-placeholder"  required="required" class="input" type="email" id="input-text" placeholder="Enter your Email">
+        </div>
+        <div class="col gender">
+            <span>Specify your gender</span>
+           <div class="rows">
+            <div class="rows_in">
+                <input id="male"  type="radio" name="gender" value="male">
+                <label for="male">Male</label> </div>
+            <div class="rows_in">
+                <input  type="radio" name="gender" value="female">
+                <label for="">Female</label>
+            </div>
+           </div>
+        </div>
+       <div class="col">
+        <p id="p4-tag"></p>
+     <label class="input-label">Education background</label>
+        <textarea required="required" class="input remove-placeholder"  name="Education background" id="input-text" cols="30" rows="4"placeholder="Tell us about your educational background"></textarea>
+       </div>
+       <div class="col">
+           <span>Do you have a laptop?</span>
+  <div class="rows">
+      <div class="rows_in">
+        <input required="required" type="radio" name="yes-no"></input>
+        <label for="">Yes</label>
+      </div>
+   <div class="rows_in"><input required="required"type="radio" name="yes-no"></input>
+<label for="">No</label></div>
+    
+  </div>
+    </div>
+    <div class="col">
+        <span>Who introduced you to KodeCamp?</span>
+        <select required="required" name="who introduced you?" id="">
+            <option value="friends">Friends</option>
+            <option value="friends">social-media</option>
+            <option value="friends">school</option>
+        </select>
+        </div>
+       
+        <div class="col">
+        <span>What track are you applying for?</span>
+      <select required ="required" name="track"> <option value="track">Frontend developer</option>
+ <option value="track">Backend developer</option>
+<option value="track">Java</option>
+ <option value="track">Python</option>
+<option value="track">Node js</option>
+  <option value="track">React</option>
+<option value="track">PHP</option>
+ <option value="track">Java</option>
+<option value="track">UI/UX designer</option>
+ <option value="track">Data Analyst</option>              <option value="track">Android developer</option>  </select>     
+  </div>      <div class="col">
+            <span>What level are you in?</span>
+      <div class="rows"> <div class="rows_in"><input type="radio" name="level"></input>
+    <label for="">Beginner level</label>
+    </div>
+    <div class="rows_in"><input type="radio" name="level">
+       <label for=""> Inter-mediate level</label>
+        
+        </input></div>    
+    </div>
+     </div>
+     <div class="col">
+        <p id="p5-tag"></p>
+         <label class="input-label">
+             Tell us about yourself
+         </label>
+         <textarea required="required" class="input remove-placeholder" name="About Yourself" id="input-text" cols="30" rows="4"placeholder="Tell us about you here"></textarea>
+     </div>
+     <div class="col">
+         <span>Choose Your Country</span>
+         <select id=""class='countryFetch' name="Country-name" id="">
+            <option value="country">Ghana</option>
+            <option value="country">Nigeria</option>
+
+<option value="country">Spain</option>
+            <option value="country">Newland</option>
+
+<option value="country">China</option>
+            <option value="country">London</option>
+<option value="country">USA</option>
+            <option value="country">Japa</option><option value="country">Israel</option>
+            <option value="country">North Korea</option>
+         </select>
+     </div>
+     <div class="submit">
+         <button  class="submit-btn" type="submit">Submit here</button>
+     </div>
+   </form> 
+   <script src="index.js"></script>
+</body>
+</html>
